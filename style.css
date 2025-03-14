@@ -1,0 +1,103 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f3c5ff, #e4b4ff, #ffdebd, #ffd1dc);
+    color: #444;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background: rgba(80, 10, 100, 0.8); /* Deep violet with transparency */
+    color: white;
+    padding: 20px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #ffebf8; /* Soft pink */
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+nav ul li a:hover {
+    color: #ffd700; /* Soft yellow */
+}
+
+/* Main Content Sections */
+section {
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgba(255, 245, 255, 0.8); /* Faded white-pink */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(255, 195, 230, 0.4);
+    transition: transform 0.2s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+/* Blog List Styling */
+#blog-list {
+    padding: 0;
+    list-style: none;
+}
+
+/* Blog Post Buttons - Faded Pastel Look */
+.blog-button {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #b57edc, #c490d1, #ffccff);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-button:hover {
+    background: linear-gradient(135deg, #9b5de5, #ff8fab);
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 12px rgba(155, 93, 229, 0.4);
+}
+
+.blog-button:active {
+    transform: translateY(2px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog Content Styling */
+#post-container {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 235, 255, 0.85);
+    box-shadow: 0px 4px 10px rgba(200, 150, 255, 0.3);
+    transition: transform 0.2s ease-in-out;
+}
+
+#post-container:hover {
+    transform: scale(1.01);
+}
