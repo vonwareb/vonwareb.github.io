@@ -18,6 +18,12 @@ header {
     text-transform: uppercase;
 }
 
+h2 {
+    font-size: 28px; /* Adjust size as needed */
+    font-weight: bold;
+    color: #5a189a; /* Optional: Change text color */
+}
+
 /* Navigation Bar */
 nav ul {
     list-style: none;
@@ -101,3 +107,4 @@ section:hover {
 #post-container:hover {
     transform: scale(1.01);
 }
+

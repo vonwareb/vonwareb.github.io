@@ -2,15 +2,18 @@ document.addEventListener("DOMContentLoaded", function () {
     const blogList = document.getElementById("blog-list");
     const postContainer = document.getElementById("post-container");
 
-    // List of Markdown blog posts (Ensure these exist in /posts/)
-    const posts = ["post1.md", "post2.md"]; // Add more as needed
+    // Blog posts with custom titles
+    const posts = [
+        { file: "post1.md", title: "Why AI Seminar" },
+        //{ file: "post2.md", title: "No Name" } // Add more posts as needed
+    ];
 
     // Create clickable buttons for each blog post
     posts.forEach((post) => {
-        let button = document.createElement("button"); // Change label to button
-        button.textContent = post.replace(".md", ""); // Remove .md extension
+        let button = document.createElement("button");
+        button.textContent = post.title; // Display custom title instead of filename
         button.classList.add("blog-button");
-        button.dataset.post = post; // Store filename in a data attribute
+        button.dataset.post = post.file; // Store filename for fetching
 
         // Click event to load post content
         button.addEventListener("click", function () {
