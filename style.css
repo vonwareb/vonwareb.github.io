@@ -82,6 +82,7 @@ nav ul {
     gap: 20px;
     padding: 0;
     margin: 0;
+    align-items: center; /* Ensures the button aligns with text links */
 }
 
 /* 📌 Style for Navigation Links */
@@ -94,6 +95,19 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.2em;
     transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+nav ul li .toggle-button {
+    background: linear-gradient(135deg, #b57edc, #c490d1);
+    color: white;
+    padding: 6px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    transition: background-size 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.2s ease;
+    background-size: 100% 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* 🌈 Gradient Hover Effect for Text */
@@ -188,8 +202,8 @@ body.dark-mode .blog-button {
     transition: background-size 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.2s ease;
     background-size: 100% 100%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    right: 20px; /* Place on Right Side */
+    position: relative;
+    right: -5px; /* Place on Right Side */
 }
 
 /* 📌 Alternative: Place Toggle Button on the Left */
