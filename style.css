@@ -45,6 +45,15 @@ header {
     transition: background-color 0.3s ease;
 }
 
+h2 {
+    color:rgba(80, 10, 100, 0.8);
+}
+
+/* 🌙 Dark Mode Header - Darker Purple */
+body.dark-mode h2 {
+    color: #ffb3ff;
+}
+
 /* 🌙 Dark Mode Header - Darker Purple */
 body.dark-mode header {
     background: rgba(45, 20, 70, 0.9);
@@ -100,6 +109,7 @@ nav ul li a:hover {
 body.dark-mode nav ul li a {
     color: #ffb3ff;
 }
+
 body.dark-mode nav ul li a:hover {
     background: linear-gradient(135deg, #9b5de5, #ff8fab);
     background-clip: text; 
@@ -110,7 +120,7 @@ body.dark-mode nav ul li a:hover {
 
 /* 📌 Apply Nav Link Colors to All Links */
 a {
-    color: #ffebf8; /* Light Mode - Same as nav links */
+    color: #ffb3ff;/* Light Mode - Same as nav links */
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
