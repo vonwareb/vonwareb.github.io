@@ -1,14 +1,31 @@
-# My First Blog Post
+# Why AI Seminar - Personal Intro, Motivation, Learning Goals
 
-**Date:** 2025-03-14
+**Date:** March 21,2025  
+**Author:** vonwareb  
+**Tags:** AI, Scientific Writing, Bayesian Deep Learning  
 
-Hello! This is my first blog post on my GitHub Pages site.
+---
+...
 
-## Introduction
-This blog will cover exciting topics about web development, coding, and more.
+---
 
-- Point 1
-- Point 2
-- Point 3
+### **👋 Personal Introduction**
+In this post, I will…
 
-Thanks for reading!
+---
+
+### **🚀 Motivation**
+Why am I interested in AI?
+
+---
+
+### **🔍 Rationals for Selecting the Topic**
+My rationals for selecting the topic....
+
+---
+
+### **🎯 Learning Goals**
+Throughout this seminar, I hope to:.
+
+
+

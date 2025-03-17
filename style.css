@@ -1,70 +1,112 @@
-/* General Page Styling */
+/* 🌞 Light Mode Background */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background: linear-gradient(135deg, #f3c5ff, #e4b4ff, #ffdebd, #ffd1dc);
+    background-color: #f3c5ff; /* Solid color for transition */
     color: #444;
     text-align: center;
+    transition: background-color 0.4s ease, color 0.3s ease;
 }
 
-/* Header Styling */
-header {
-    background: rgba(80, 10, 100, 0.8); /* Deep violet with transparency */
-    color: white;
-    padding: 20px 0;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-transform: uppercase;
+/* 🌙 Dark Mode Background - Deep Violet & Midnight */
+body.dark-mode {
+    background: linear-gradient(135deg, #2d1b5c, #1e1e2f);
+    background-color: #1e1e2f; /* Smooth transition */
+    color: #e0e0e0;
 }
 
-h2 {
-    font-size: 28px; /* Adjust size as needed */
-    font-weight: bold;
-    color: #5a189a; /* Optional: Change text color */
-}
-
-/* Navigation Bar */
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-nav ul li a {
-    color: #ffebf8; /* Soft pink */
-    text-decoration: none;
-    font-size: 1.2em;
-    transition: color 0.3s ease-in-out;
-}
-nav ul li a:hover {
-    color: #ffd700; /* Soft yellow */
-}
-
-/* Main Content Sections */
+/* 🌞 Light Mode Sections */
 section {
     max-width: 800px;
     margin: 50px auto;
-    background: rgba(255, 245, 255, 0.8); /* Faded white-pink */
+    background: rgba(255, 245, 255, 0.85);
+    background-color: rgba(255, 245, 255, 0.9); /* Ensures smooth transition */
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0px 4px 12px rgba(255, 195, 230, 0.4);
-    transition: transform 0.2s ease-in-out;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 
-section:hover {
-    transform: scale(1.02);
+/* 🌙 Dark Mode Sections - Deep Purple with Glow */
+body.dark-mode section {
+    background: linear-gradient(135deg, #251e3e, #1a162d);
+    background-color: rgba(40, 30, 60, 0.95); /* Ensures smooth transition */
+    color: #f5f5f5;
+    box-shadow: 0px 4px 15px rgba(200, 150, 255, 0.15);
 }
 
-/* Blog List Styling */
-#blog-list {
-    padding: 0;
+/* 📌 Header */
+header {
+    background: rgba(80, 10, 100, 0.8);
+    color: white;
+    padding: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+/* 🌙 Dark Mode Header - Darker Purple */
+body.dark-mode header {
+    background: rgba(45, 20, 70, 0.9);
+}
+
+/* 📌 Make the Navigation Bar a Flexbox Container */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center everything */
+    position: relative;
+    padding: 10px 20px;
+}
+
+/* 📌 Style for Centering Navigation Links */
+.nav-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Perfect Centering */
+}
+
+/* 📌 Style for the Nav List */
+nav ul {
     list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
 }
 
-/* Blog Post Buttons - Faded Pastel Look */
+/* 📌 Style for Navigation Links */
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #ffebf8; /* Default text color */
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* 🌈 Gradient Hover Effect for Text */
+nav ul li a:hover {
+    background: linear-gradient(135deg, #9b5de5, #ff8fab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* 🌙 Dark Mode Navigation */
+body.dark-mode nav ul li a {
+    color: #ffb3ff;
+}
+body.dark-mode nav ul li a:hover {
+    background: linear-gradient(135deg, #9b5de5, #ff8fab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* 📌 Blog & Project Buttons */
 .blog-button {
     display: block;
     width: 100%;
@@ -74,6 +116,7 @@ section:hover {
     font-size: 18px;
     font-weight: bold;
     background: linear-gradient(135deg, #b57edc, #c490d1, #ffccff);
+    background-size: 100% 100%;
     color: white;
     border: none;
     border-radius: 12px;
@@ -83,6 +126,73 @@ section:hover {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* 🌙 Dark Mode Buttons - Soft Glow */
+body.dark-mode .blog-button {
+    background: linear-gradient(135deg, #7047a8, #8a3fcf);
+    color: #f5f5f5;
+    box-shadow: 0px 4px 12px rgba(130, 90, 255, 0.3);
+}
+
+/* 📌 Toggle Button */
+.toggle-button {
+    background: linear-gradient(135deg, #b57edc, #c490d1);
+    color: white;
+    padding: 6px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-size 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.2s ease;
+    background-size: 100% 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 20px; /* Place on Right Side */
+}
+
+/* 📌 Alternative: Place Toggle Button on the Left */
+nav .toggle-button.left {
+    left: 20px; /* Move to Left Side */
+    right: auto;
+}
+
+/* Hover Effect */
+.toggle-button:hover {
+    background-size: 150% 150%;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+/* 🌙 Dark Mode Toggle Button */
+body.dark-mode .toggle-button {
+    background: linear-gradient(135deg, #7047a8, #8a3fcf);
+    color: #f5f5f5;
+    box-shadow: 0px 4px 8px rgba(130, 90, 255, 0.3);
+}
+
+/* 📌 Blog Content */
+#post-container {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: radial-gradient(circle, rgba(138, 43, 226, 0.1) 10%, rgba(255, 20, 147, 0.1) 40%, rgba(255, 255, 255, 0.2) 100%);
+    background-color: rgba(255, 245, 255, 0.9); /* Solid color for transition */
+    box-shadow: 0px 4px 10px rgba(200, 150, 255, 0.3);
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* 🌙 Dark Mode Blog Content */
+body.dark-mode #post-container {
+    background: radial-gradient(circle, 
+        rgba(50, 10, 100, 0.8) 5%,  /* Deep purple center */
+        rgba(90, 40, 160, 0.6) 30%, /* Soft blue-violet */
+        rgba(150, 80, 220, 0.4) 70%, /* Brighter purple */
+        rgba(255, 150, 255, 0.2) 100% /* Light pink glow */
+    );
+    background-color: rgba(40, 30, 60, 0.95); /* Ensures smooth transition */
+    box-shadow: 0px 4px 15px rgba(200, 150, 255, 0.2);
+}
+
+/* 📌 Hover Effects */
 .blog-button:hover {
     background: linear-gradient(135deg, #9b5de5, #ff8fab);
     transform: translateY(-3px);
@@ -94,17 +204,23 @@ section:hover {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Blog Content Styling */
-#post-container {
-    margin-top: 20px;
-    padding: 15px;
+/* 🌙 Dark Mode Hover Effect */
+body.dark-mode .blog-button:hover {
+    background: linear-gradient(135deg, #8a3fcf, #ff69b4);
+    box-shadow: 0px 6px 12px rgba(255, 93, 155, 0.3);
+}
+
+/* 📌 "Coming Soon" Box */
+#project-placeholder {
+    background: rgba(245, 245, 255, 0.8);
+    padding: 20px;
     border-radius: 10px;
-    background: rgba(255, 235, 255, 0.85);
-    box-shadow: 0px 4px 10px rgba(200, 150, 255, 0.3);
-    transition: transform 0.2s ease-in-out;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(200, 150, 255, 0.3);
 }
 
-#post-container:hover {
-    transform: scale(1.01);
+/* 🌙 Dark Mode "Coming Soon" Box */
+body.dark-mode #project-placeholder {
+    background: rgba(50, 40, 80, 0.85);
+    box-shadow: 0px 4px 8px rgba(200, 150, 255, 0.2);
 }
-

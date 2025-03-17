@@ -1,33 +1,58 @@
 document.addEventListener("DOMContentLoaded", function () {
     const blogList = document.getElementById("blog-list");
     const postContainer = document.getElementById("post-container");
+    const toggleButton = document.getElementById("dark-mode-toggle");
+    const body = document.body;
 
-    // Blog posts with custom titles
+    // 🌙 Check and Apply Dark Mode Preference from Local Storage
+    if (localStorage.getItem("darkMode") === "enabled") {
+        body.classList.add("dark-mode");
+        toggleButton.textContent = "☀️ Light Mode";
+    }
+
+    // 🌓 Toggle Dark Mode on Button Click
+    if (toggleButton) { // Ensure the button exists before adding event listener
+        toggleButton.addEventListener("click", function () {
+            body.classList.toggle("dark-mode");
+
+            if (body.classList.contains("dark-mode")) {
+                localStorage.setItem("darkMode", "enabled");
+                toggleButton.textContent = "☀️ Light Mode";
+            } else {
+                localStorage.setItem("darkMode", "disabled");
+                toggleButton.textContent = "🌙 Dark Mode";
+            }
+        });
+    }
+
+    // 📖 Blog Posts with Custom Titles
     const posts = [
-        { file: "post1.md", title: "Why AI Seminar" },
-        //{ file: "post2.md", title: "No Name" } // Add more posts as needed
+        //{ file: "post1.md", title: "Why AI Seminar" },
+        { file: "post2.md", title: "Why AI Seminar" } // Add more posts as needed
     ];
 
-    // Create clickable buttons for each blog post
-    posts.forEach((post) => {
-        let button = document.createElement("button");
-        button.textContent = post.title; // Display custom title instead of filename
-        button.classList.add("blog-button");
-        button.dataset.post = post.file; // Store filename for fetching
+    // 📝 Create Clickable Buttons for Each Blog Post
+    if (blogList) { // Ensure blogList exists before populating it
+        posts.forEach((post) => {
+            let button = document.createElement("button");
+            button.textContent = post.title; // Display custom title instead of filename
+            button.classList.add("blog-button");
+            button.dataset.post = post.file; // Store filename for fetching
 
-        // Click event to load post content
-        button.addEventListener("click", function () {
-            loadPost(this.dataset.post);
+            // 📌 Click Event to Load Blog Post Content
+            button.addEventListener("click", function () {
+                loadPost(this.dataset.post);
+            });
+
+            blogList.appendChild(button);
         });
-
-        blogList.appendChild(button);
-    });
+    }
 });
 
-// Fetch and display the blog post content
+// 📜 Function to Fetch and Display Blog Post Content
 async function loadPost(postFile) {
     try {
-        const response = await fetch(`posts/${postFile}`);
+        const response = await fetch(`posts/${postFile}?t=${new Date().getTime()}`); // Prevent caching
         if (!response.ok) {
             throw new Error("Post not found");
         }
@@ -39,7 +64,7 @@ async function loadPost(postFile) {
     }
 }
 
-// Convert Markdown to HTML using Showdown.js
+// 🔄 Convert Markdown to HTML using Showdown.js
 function markdownToHTML(markdown) {
     let converter = new showdown.Converter();
     return converter.makeHtml(markdown);
