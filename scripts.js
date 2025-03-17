@@ -7,7 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // 🌙 Check and Apply Dark Mode Preference from Local Storage
     if (localStorage.getItem("darkMode") === "enabled") {
         body.classList.add("dark-mode");
-        toggleButton.textContent = "☀️ Light Mode";
+        toggleButton.textContent = "☀️";
+    } else {
+        toggleButton.textContent = "🌙"; // Only Moon Emoji
     }
 
     // 🌓 Toggle Dark Mode on Button Click

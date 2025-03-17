@@ -108,6 +108,37 @@ body.dark-mode nav ul li a:hover {
     transition: background-color 0.3s ease-in-out;
 }
 
+/* 📌 Apply Nav Link Colors to All Links */
+a {
+    color: #ffebf8; /* Light Mode - Same as nav links */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+/* 🌙 Dark Mode - Apply Nav Link Color to All Links */
+body.dark-mode a {
+    color: #ffb3ff; /* Dark Mode - Same as nav links */
+}
+
+/* 📌 Hover Effect (Same as Nav) */
+a:hover {
+    background: linear-gradient(135deg, #9b5de5, #ff8fab);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* 🌙 Dark Mode Hover */
+body.dark-mode a:hover {
+    background: linear-gradient(135deg, #9b5de5, #ff8fab);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
 /* 📌 Blog & Project Buttons */
 .blog-button {
     display: block;
