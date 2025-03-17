@@ -90,6 +90,7 @@ nav ul li a {
 /* 🌈 Gradient Hover Effect for Text */
 nav ul li a:hover {
     background: linear-gradient(135deg, #9b5de5, #ff8fab);
+    background-clip: text; 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: background-color 0.3s ease-in-out;
@@ -101,6 +102,7 @@ body.dark-mode nav ul li a {
 }
 body.dark-mode nav ul li a:hover {
     background: linear-gradient(135deg, #9b5de5, #ff8fab);
+    background-clip: text; 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: background-color 0.3s ease-in-out;
@@ -158,8 +160,20 @@ nav .toggle-button.left {
 /* Hover Effect */
 .toggle-button:hover {
     background-size: 150% 150%;
+    background: linear-gradient(135deg, #9b5de5, #ff8fab);
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
+}
+
+.toggle-button:active {
+    transform: translateY(2px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 🌙 Dark Mode Hover Effect */
+body.dark-mode .toggle-button:hover {
+    background: linear-gradient(135deg, #8a3fcf, #ff69b4);
+    box-shadow: 0px 6px 12px rgba(255, 93, 155, 0.3);
 }
 
 /* 🌙 Dark Mode Toggle Button */

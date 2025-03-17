@@ -17,10 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (body.classList.contains("dark-mode")) {
                 localStorage.setItem("darkMode", "enabled");
-                toggleButton.textContent = "☀️ Light Mode";
+                toggleButton.textContent = "☀️";
             } else {
                 localStorage.setItem("darkMode", "disabled");
-                toggleButton.textContent = "🌙 Dark Mode";
+                toggleButton.textContent = "🌙";
             }
         });
     }
