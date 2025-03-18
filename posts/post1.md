@@ -1,4 +1,5 @@
-# Why AI Seminar - Personal Intro, Motivation, Learning Goals
+# The Road to the AI Seminar
+### Why I’m Here and What I Hope to Learn
 
 **Date:** March 21,2025  
 **Author:** Rebekka von Wartburg  
