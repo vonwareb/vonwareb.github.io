@@ -55,6 +55,3 @@ By attending this AI seminar, I hope to optimize the following skills and abilit
 
 ---
 My path hasn't been straight, but that's what makes it so valuable - because each of those steps led me here: to **the master's program**, to **this AI-seminar**, and to **my interest in working with scientific precision and gaining well-founded insights** 😃.
-
-
-

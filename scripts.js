@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const toggleButton = document.getElementById("dark-mode-toggle");
     const body = document.body;
 
-    // 🌙 Check and Apply Dark Mode Preference from Local Storage
+    // Check and Apply Dark Mode Preference from Local Storage
     if (localStorage.getItem("darkMode") === "enabled") {
         body.classList.add("dark-mode");
         toggleButton.textContent = "☀️";
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         toggleButton.textContent = "🌙"; // Only Moon Emoji
     }
 
-    // 🌓 Toggle Dark Mode on Button Click
+    // Toggle Dark Mode on Button Click
     if (toggleButton) { // Ensure the button exists before adding event listener
         toggleButton.addEventListener("click", function () {
             body.classList.toggle("dark-mode");
@@ -27,13 +27,13 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    // 📖 Blog Posts with Custom Titles
+    // Blog Posts with Custom Titles
     const posts = [
         { file: "post1.md", title: "Road To The AI Seminar" },
         //{ file: "post2.md", title: "Why AI Seminar" } // Add more posts as needed
     ];
 
-    // 📝 Create Clickable Buttons for Each Blog Post
+    // Create Clickable Buttons for Each Blog Post
     if (blogList) { // Ensure blogList exists before populating it
         posts.forEach((post) => {
             let button = document.createElement("button");
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-// 📜 Function to Fetch and Display Blog Post Content
+// Function to Fetch and Display Blog Post Content
 async function loadPost(postFile) {
     try {
         const response = await fetch(`posts/${postFile}?t=${new Date().getTime()}`); // Prevent caching
@@ -66,7 +66,7 @@ async function loadPost(postFile) {
     }
 }
 
-// 🔄 Convert Markdown to HTML using Showdown.js
+// Convert Markdown to HTML using Showdown.js
 function markdownToHTML(markdown) {
     let converter = new showdown.Converter();
     return converter.makeHtml(markdown);
