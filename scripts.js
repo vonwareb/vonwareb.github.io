@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 📖 Blog Posts with Custom Titles
     const posts = [
-        { file: "post1.md", title: "Road to the AI Seminar" },
+        { file: "post1.md", title: "Road To The AI Seminar" },
         //{ file: "post2.md", title: "Why AI Seminar" } // Add more posts as needed
     ];
 
