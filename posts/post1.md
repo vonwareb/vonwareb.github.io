@@ -43,11 +43,11 @@ By attending this AI seminar, I hope to optimize the following skills and abilit
 
 **Efficient evaluation of scientific publications:**
 
-*How to quickly and reliably distinguish high quality from low quality papers?*
+*How to quickly and reliably distinguish high quality from low quality papers.*
 
 **Improve my own scientific writing:**
 
-*What skills do I need to produce a convincing and sound publication?*
+*What skills do I need to produce a convincing and sound publication.*
 
 **Effective presentation of scientific results:**
 
