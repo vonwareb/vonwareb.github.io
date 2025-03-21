@@ -21,7 +21,7 @@ Exactly one year ago, I spent most of my time analyzing scientific publications 
 
 After reading countless scientific papers of varying quality, one thing has become clear: You need the right tools to distinguish good papers from the less convincing ones. But not only that - it is equally important to be able to write high quality scientific work.
 
-Equally important is the art of presentation. Research results and complex topics should be presented in ways that are not only technically sound, but also understandable and appealing. A good paper guides the reader through the subject matter in a structured way, while a convincing presentation captures the reader's attention and illustrates the relevance of the scientific work.
+Just as important is the art of presenting. Research results and complex topics should be presented in a way that is not only technically sound, but also understandable and engaging. A good paper guides the reader through the subject matter in a structured way, while a convincing presentation captures the reader's attention and illustrates the relevance of the scientific work.
 
 All of this has encouraged me to take part in this AI seminar.
 
