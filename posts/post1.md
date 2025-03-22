@@ -2,7 +2,7 @@
 ### Why I’m Here and What I Hope to Learn
 
 **Date:** March 21, 2025  
-**Author:** Rebekka von Wartburg  
+**Author:** vonwareb  
 
 ---
 Who would have thought five years ago that today I would be writing a blogpost about attending the AI seminar in the master's program? It's amazing what a journey I've been on, and what a change it has brought to me. But let's start from the beginning...
