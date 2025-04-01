@@ -30,7 +30,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Blog Posts with Custom Titles
     const posts = [
         { file: "post1.md", title: "Road To The AI Seminar" },
-        //{ file: "post2.md", title: "Why AI Seminar" } // Add more posts as needed
+        //{ file: "post2.md", title: "Bayesian Deep Learning in Large-Scale AI: A Critical View”" } // Add more posts as needed
+        { file: "post3.md", title: "Bayesian Deep Learning in Large-Scale AI: A Critical View”" } 
     ];
 
     // Create Clickable Buttons for Each Blog Post
