@@ -56,11 +56,11 @@ In the last lecture I got a first insight into *Bayesian Deep Learning*. As this
 The two learning objectives that I will be pursuing during the seminar are as follows:
 
 #### Learning Goal I
-By the end of the seminar, I will have created a grid of at least five evaluation criteria for assessing the quality of scientific papers. These criteria are also based on the SMART principles. The grid serves as a tool for analyzing and evaluating scientific texts. To test the applicability of the criteria, they will be applied to at least three scientific texts by the end of the seminar. The outcome will include the elaborated criteria grid as well as a written evaluation of each scientific text analyzed.
+At the end of the seminar, I will have created a grid with at least five evaluation criteria for assessing the quality of scientific publications. This grid should serve as a tool for evaluating scientific texts and show what makes a good scientific text. To test its applicability, the grid will be applied to at least three scientific texts by the end of the seminar. The result will include the criteria grid, and a written evaluation of each text analyzed, taking into account the evaluation grid.
 
 
 #### Learning Goal II
-At the end of the seminar, I will have written a scientific text on my chosen topic of Bayesian Deep Learning in order to specifically improve my academic writing skills. In doing so, I will integrate the theoretical content of the seminar as well as independently acquired knowledge. This will be demonstrated by a self-reflection on the writing process, in which I describe the procedure and the theoretical concepts applied. The result will include an evaluation of the writing process, which will serve as a guide for future academic writing.
+At the end of the seminar, I will have written a scientific paper on my chosen topic, Bayesian Deep Learning, in order to improve my scientific writing skills. In doing so, I will integrate the theoretical content of the seminar as well as independently acquired knowledge. At the end of the writing phase, a self-reflection will be conducted. This will present the process, and the theoretical concepts used. The result will be the written scientific text and a reflection paper, which should serve as a guide for the writing of further scientific texts.
 
 ---
 My path hasn't been straight, but that's what makes it so valuable - because each of those steps led me here: to **the master's program**, to **this AI-seminar**, and to **my interest in working with scientific precision and gaining well-founded insights** 😃.
