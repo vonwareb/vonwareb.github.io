@@ -10,7 +10,7 @@ How can we make deep learning more robust, interpretable, and trustworthy? A loo
 
 ---
 ### **📚 What this is about - and why it matters**
-In this blog post, I will take a closer look at my chosen seed paper on Bayesian Deep Learning (BDL). In particular, I will analyze the structure, style, presentation, and use of illustrations. The goal is to find out what is convincingly successful and where there is still potential for optimization.
+In this blogpost, I will take a closer look at my chosen seed paper on Bayesian Deep Learning (BDL). In particular, I will analyze the structure, style, presentation, and use of illustrations. The goal is to find out what is convincingly successful and where there is still potential for optimization.
 
 My chosen seed paper is not a scientific paper in the traditional sense, but a so-called position paper. But what exactly distinguishes a position paper from a traditional scientific paper?
 
@@ -19,7 +19,11 @@ In the first step I will explain what a position paper is. Then I will briefly p
 ---
 
 ### **🧾 What makes a position paper**
-A position paper, on the other hand, has a different purpose. It should present a clear position on a specific topic - and make this position comprehensible through targeted argumentation. The aim is not only to substantiate one's own position with supporting arguments, but also to point out and reflect on possible counterarguments. The structure of a position paper therefore differs somewhat from the usual one and is structured as follows: An introduction to the topic, the clear formulation of the position, argumentative sections to support and critically illuminate this position, and a summarizing conclusion.
+As taught in the AI seminar, a classical scientific paper usually follows a more or less fixed structure: title, abstract, introduction, body, conclusions, acknowledgments, references, and possibly appendices. The focus is on the presentation of new empirical findings.
+
+A position paper, on the other hand, has a different purpose. It should present a clear position on a specific topic - and make this position comprehensible through targeted argumentation. The aim is not only to substantiate one's own position with supporting arguments, but also to point out and reflect on possible counterarguments.
+
+The structure of a position paper therefore differs somewhat from the usual one and is structured as follows: An introduction to the topic, the clear formulation of the position, argumentative sections to support and critically illuminate this position, and a summarizing conclusion.
 
 ---
 
@@ -33,22 +37,22 @@ Although classical deep learning methods deliver impressive results, they often 
 ---
 
 ### **✅ What makes the paper convincing**
-The Seed paper impresses with its clear positioning, which is already evident in the title. In the rather short abstract of about 120 words, the importance of BDL is successfully presented and the positioning is clarified.
+The paper impresses with its clear positioning, which is already evident in the title. In the rather short abstract of about 120 words, the importance of BDL is successfully presented and the positioning is clarified.
 
 In the introduction, the position is taken up and further explained. In addition to a brief overview of what BDL basically is, this section also provides a contextual classification. Particularly helpful is a short overview of the individual sections of the paper and their rough contents, which is very helpful for a quick orientation in the paper.
 
 The main section is logical and well structured: First, it explains what BDL is and what its strengths are. This is followed by a critical examination of existing challenges - such as posterior computation, prior specification, and scalability issues. Finally, possible future solutions are briefly outlined, with a special focus on scalability optimizations.
 
-The transitions between the main areas are very well done, as there is always a short introduction and a reference to the previous section at the beginning of each new section. In addition, the main areas are divided into meaningful subsections, e.g., in the section on what constitutes BDL, each core aspect - such as uncertainty quantification - has its own subsection.
+The transitions between the main sections are very well done, as there is always a short introduction and a reference to the previous section at the beginning of each new one. In addition, the main sections are divided into meaningful subsections, e.g., in the section on *Why Bayesian Deep Learning Matters*, each core aspect - such as uncertainty quantification - has its own subsection.
 
-Finally, the central statements of the paper are clearly summarized in the very concise Final Remarks. In just a few sentences, the core message of the paper is brought to the point and the position is finally supported.
+Finally, the central statements of the paper are clearly summarized in the very concise *Final Remarks*. In just a few sentences, the core message of the paper is brought to the point and the position is finally supported.
 
 References are consistently in APA style and alphabetized, which makes it much easier to find the sources. Some of the cited works seem so relevant that I will probably use them for my own work on BDL.
 
 ---
 
 ### **🔧 Where there is still room for improvement**
-As already mentioned, the subchapters of the sections in the main part are reasonably structured and well written, and the statements are supported by appropriate sources. However, in my opinion, it would have been helpful to supplement the sometimes very theoretical aspects with more concrete practical examples in order to make the reference to the application even more tangible.
+As already mentioned, the subsections of the sections in the main part are reasonably structured and well written, and the statements are supported by appropriate sources. However, in my opinion, it would have been helpful to supplement the sometimes very theoretical aspects with more concrete practical examples in order to make the reference to the application even more tangible.
 
 In addition, the paper assumes a fairly high level of prior knowledge of the topic - which is understandable and common in an academic context. Nevertheless, the comprehensibility could be improved if the main text referred more specifically to additional content in the appendix. For example, Laplace approximations and variational approximations are explained in detail in the appendix, but no direct reference is made to them in the corresponding section of the main text. It is only briefly mentioned in the introduction that further information on Bayesian methods is provided in the appendix.
 
@@ -62,13 +66,13 @@ Overall, my chosen seed paper "*Position: Bayesian Deep Learning is Needed in th
 
 Nevertheless, there are some points where there is still potential for development - for example, through a more targeted use of practical examples, clearer cross-references within the text, or a more visually appealing presentation of complex content.
 
-The book is an excellent basis for an in-depth study of my chosen topic, *Bayesian Deep Learning*. It showed me once again how much potential there is in BDL and in which direction future research in this area could lead. Looking back, I am very satisfied with the choice of my seed paper - not least because it provides me with valuable scientific material for my future work 🤩.
+This paper is an excellent basis for an in-depth study of my chosen topic, *Bayesian Deep Learning*. It showed me once again how much potential there is in BDL and in which direction future research in this area could lead. Looking back, I am very satisfied with the choice of my seed paper - not least because it provides me with valuable scientific material for my future work 🤩.
 
 
 | Sources    |
 |----------------|
 | J. Widom, “*Tips for writing technical papers*” https://cs.stanford.edu/people/widom/paper-writing.html |
 | L. Kramer, “*How to Write a Position Paper*” https://www.grammarly.com/blog/academic-writing/position-paper/  |
-| A. Karpathy, “*A Survival Guide to a PhD*”, section “writing papers" https://karpathy.github.io/2016/09/07/phd/ |
-| T. Papamarkou et al., “Position: Bayesian Deep Learning is Needed in the Age of Large-Scale AI,” in Proceedings of the 41st International Conference on Machine Learning, ser. Proceedings of Machine Learning Research, R. Salakhutdinov, Z. Kolter, K. Heller, A. Weller, N. Oliver, J. Scarlett, and F. Berkenkamp, Eds., vol. 235. PMLR, Jul. 2024, pp. 39 556–39 586. [Online]. Available: https://proceedings.mlr.press/v235/papamarkou24b.html  |
+| A. Karpathy, “*A Survival Guide to a PhD*” https://karpathy.github.io/2016/09/07/phd/ |
+| T. Papamarkou et al., “*Position: Bayesian Deep Learning is Needed in the Age of Large-Scale AI*,” in Proceedings of the 41st International Conference on Machine Learning, ser. Proceedings of Machine Learning Research, R. Salakhutdinov, Z. Kolter, K. Heller, A. Weller, N. Oliver, J. Scarlett, and F. Berkenkamp, Eds., vol. 235. PMLR, Jul. 2024, pp. 39 556–39 586. [Online]. Available: https://proceedings.mlr.press/v235/papamarkou24b.html  |
 
