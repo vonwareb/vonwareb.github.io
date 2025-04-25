@@ -1,6 +1,6 @@
 # Reading Between the Lines: A Closer Look at a Position Paper on Bayesian Deep Learning
 
-**Date:** April 24, 2025  
+**Date:** April 25, 2025  
 **Author:** vonwareb  
 
 ---
