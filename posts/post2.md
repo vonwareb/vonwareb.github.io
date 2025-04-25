@@ -1,20 +1,20 @@
-# Where the Position is Strong — and Where It Could Be Stronger:
-# A Review of the Case for Bayesian Deep Learning in Large-Scale AI
+# Reading Between the Lines: A Closer Look at a Position Paper on Bayesian Deep Learning
 
 **Date:** April 24, 2025  
 **Author:** vonwareb  
 
 ---
 
-*How can we make deep learning more robust, interpretable, and trustworthy?*  
-A look at my selected seed paper shows why Bayesian Deep Learning might be the right tool.
+*How can we make deep learning more robust, interpretable, and trustworthy?*
+
+A look at my selected seed paper shows why *Bayesian Deep Learning* might be the right tool.
 
 ---
 ### **📚 What this is about - and why it matters**
 In this blogpost, I will take a closer look at my chosen seed paper on *Bayesian Deep Learning (BDL)*. Specifically, I will analyze the structure, style, presentation, including illustrations.  
-The goal is to identify what worked and where there is room for improvement.
+The goal is to find out what works and where there is room for improvement.
 
-The seed paper I have chosen is not a scientific paper in the traditional sense, but a so-called position paper. But what exactly distinguishes a position paper from a traditional scientific paper?
+The paper I have chosen is not a scientific paper in the traditional sense, but a so-called position paper. But what exactly distinguishes a position paper from a traditional scientific paper?
 
 Therefore, in the first step I will explain what characterizes a position paper. Then I will briefly present my seed paper and discuss its strengths and potential for improvement.  
 Finally, I will conclude with a short summary and some personal thoughts.
@@ -33,7 +33,7 @@ The structure of a position paper therefore differs somewhat from the usual one 
 ---
 
 ### **🧠 The arguments for BDL**
-The seed paper I chose is called "*Position: Bayesian Deep Learning is Needed in the Age of Large-Scale AI*" by Papamarkou et al. The title already makes it clear that this is a position paper - and at the same time  shows the position that is taken. This makes it clear right from the start what the paper is about.
+The title of my paper is: "*Position: Bayesian Deep Learning is Needed in the Age of Large-Scale AI*" by Papamarkou et al. The title already makes it clear that this is a position paper - and at the same time shows the position taken. This makes it clear from the beginning what the paper is about.
 
 The central thesis is that BDL can address major weaknesses of current deep learning models - especially with respect to uncertainty estimation and the handling of safety-critical decisions.
 
