@@ -30,8 +30,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Blog Posts with Custom Titles
     const posts = [
         { file: "post1.md", title: "Road To The AI Seminar" },
-        { file: "post2.md", title: "Bayesian Deep Learning: A Closer Look at a Position Paper" } // Add more posts as needed
-        //{ file: "post3.md", title: "Bayesian Deep Learning in Large-Scale AI: A Critical View”" } 
+        { file: "post2.md", title: "Bayesian Deep Learning: A Closer Look at a Position Paper" }, // Add more posts as needed
+        { file: "post3.md", title: "Why Bayesian AI Now?" }
+        //{ file: "post4.md", title: "Why Bayesian AI Now?" } // Add more posts as needed
     ];
 
     // Create Clickable Buttons for Each Blog Post
