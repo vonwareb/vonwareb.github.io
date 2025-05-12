@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const posts = [
         { file: "post1.md", title: "Road To The AI Seminar" },
         { file: "post2.md", title: "Bayesian Deep Learning: A Closer Look at a Position Paper" }, // Add more posts as needed
-        { file: "post3.md", title: "Why Bayesian AI Now?" }
-        //{ file: "post4.md", title: "Why Bayesian AI Now?" } // Add more posts as needed
+        //{ file: "post3.md", title: "Why Bayesian AI Now?" }
+        { file: "post4.md", title: "Why Bayesian AI Now?" } // Add more posts as needed
     ];
 
     // Create Clickable Buttons for Each Blog Post
