@@ -72,5 +72,9 @@ BDL is therefore considered a logical advancement in modern AI. Particularly in 
 
 ---
 
+| Sources    |
+|----------------|
+| T. Papamarkou et al., “*Position: Bayesian Deep Learning is Needed in the Age of Large-Scale AI*,” in Proceedings of the 41st International Conference on Machine Learning, ser. Proceedings of Machine Learning Research, R. Salakhutdinov, Z. Kolter, K. Heller, A. Weller, N. Oliver, J. Scarlett, and F. Berkenkamp, Eds., vol. 235. PMLR, Jul. 2024, pp. 39 556–39 586. [Online]. Available: https://proceedings.mlr.press/v235/papamarkou24b.html  |
+
 
 
