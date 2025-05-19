@@ -14,7 +14,7 @@ BDL has a crucial property that classic deep learning models can hardly achieve 
 This blog post summarizes the paper's main points. It discusses the role of BDL in modern AI, the challenges it faces, and how it could help shape the next generation of AI.
 
 ---
-### 🔍 The Central Statement: Why Bayesian Deep Learning**
+### 🔍 The Central Statement: Why Bayesian Deep Learning
 The title of the paper, *Position: Bayesian Deep Learning is Needed in the Age of Large-Scale AI*, clearly indicates the paper's focus. However, Papamarkou et al. not only position their demand, but also explain how AI systems can be made more robust and trustworthy through the interaction of classic deep learning models and BDL.
 
 Current models exhibit excessive self-confidence alongside a lack of uncertainty estimation. They make highly confident statements, even when they originate from noisy or out-of-distribution data. This poses considerable risks, especially in sensitive areas such as medicine and autonomous driving.
@@ -25,7 +25,7 @@ The paper does not present BDL as a counterproposal but rather as a supplement t
 
 ---
 
-### 🌍 The context: A Crucial Gap in Modern AI**
+### 🌍 The Context: A Crucial Gap in Modern AI
 Progress in deep learning has been remarkable in recent years. Language models can pass demanding tests, and image classifiers can outperform radiologists.
 However, these models remain blind to their own uncertainty. Many of these systems function deterministically. They provide point predictions without indicating how safe or robust they are. This poses a considerable risk, especially in safety-critical or dynamic fields of application.
 
@@ -48,7 +48,7 @@ This paper does not advocate abandoning established deep learning methods but ra
 
 ---
 
-### **🔮 The Outlook: What comes next**
+### 🔮 The Outlook: What Comes Next
 Papamarkou et al. present a clear message in their paper. AI models must significantly improve their handling of uncertainty to survive in safety-critical or dynamic applications. BDLprovides an opportunity to achieve this goal. It is not intended as a replacement for existing deep learning methods, but rather as a useful extension.
 
 The paper highlights specific methodological and infrastructural hurdles, such as posterior computation, prior selection, and scalability issues, and shows the areas in which technical progress is needed. At the same time, the paper makes it clear that solutions are already in sight, including better sampling methods, hybrid model approaches, and system-related optimizations.
@@ -58,7 +58,7 @@ BDL is therefore considered a logical advancement in modern AI. This is especial
 
 ---
 
-### **🧠 Final Thoughts**
+### 🧠 Final Thoughts
 Papamarkou et al. provide a clear message: For AI models to survive in safety-critical or dynamic applications, their handling of uncertainty must improve significantly. BDL offers the right framework for this, not as a replacement for existing deep learning methods but as an extension.
 
 The paper highlights specific methodological and infrastructural challenges, such as posterior computation, prior selection, and scalability issues, and indicates areas where technical progress is necessary. At the same time, the paper makes it clear that solutions are already in sight, such as more efficient sampling methods, hybrid model approaches, and system-related optimizations.
