@@ -32,7 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
         { file: "post1.md", title: "Road To The AI Seminar" },
         { file: "post2.md", title: "Bayesian Deep Learning: A Closer Look at a Position Paper" }, // Add more posts as needed
         { file: "post3.md", title: "Why Bayesian Deep Learning Now" },
-        { file: "post4.md", title: "Bayesian Deep Learning: Between Vision and Realization" } // Add more posts as needed
+        { file: "post4.md", title: "Bayesian Deep Learning: Between Vision and Realization" },
+        { file: "post6.md", title: "My Growth in Scientific Work" } // Add more posts as needed
     ];
 
     // Create Clickable Buttons for Each Blog Post
